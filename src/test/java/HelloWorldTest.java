@@ -17,14 +17,14 @@ public class HelloWorldTest {
 	}
 
 	@AfterEach
-	public void cleanupStreams() {
+	public void cleanupStream() {
 		System.setOut(null);
 	}
 
-//	@Test
-//	public void helloWorldTest() {
-//		HelloWorld.printHelloWorld();
-//		assertEquals("Hello World", outContent.toString());
-//	}
+	/*@Test
+	public void helloWorldTest() {
+		HelloWorld.printHelloWorld();
+		assertEquals("Hello World", outContent.toString());
+	}*/
 
 }
