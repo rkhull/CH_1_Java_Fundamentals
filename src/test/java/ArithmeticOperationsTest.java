@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 public class ArithmeticOperationsTest {
 
-	/*@Test
+	@Test
 	public void addTest() {
 		assertEquals(660, ArithmeticOperations.add(235, 425));
 	}
@@ -21,5 +21,5 @@ public class ArithmeticOperationsTest {
 	@Test
 	public void divideTest() {
 		assertEquals(30, ArithmeticOperations.divide(90, 3));
-	}*/
+	}
 }

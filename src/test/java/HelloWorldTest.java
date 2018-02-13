@@ -21,10 +21,10 @@ public class HelloWorldTest {
 		System.setOut(null);
 	}
 
-	/*@Test
+	@Test
 	public void helloWorldTest() {
 		HelloWorld.printHelloWorld();
 		assertEquals("Hello World", outContent.toString());
-	}*/
+	}
 
 }
